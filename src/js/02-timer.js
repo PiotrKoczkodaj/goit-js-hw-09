@@ -1,3 +1,4 @@
+
 const input = document.querySelector("#datetime-picker");
 input.style.width = "220px";
 input.style.height = "35px";
@@ -30,3 +31,6 @@ for (let i = 0; i < labels.length; i++) {
     labels[i].style.fontWeight = "bold";
     
 }
+
+import flatpickr from "flatpickr";
+
