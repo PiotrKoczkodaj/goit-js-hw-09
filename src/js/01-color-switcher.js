@@ -8,10 +8,12 @@ function getRandomHexColor() {
 
 const changeBackgroudColor = () => {
     document.body.style.backgroundColor = `${getRandomHexColor()}`;
+    btnStart.disabled = true;
 };
 
 const stopChanging = () => { 
     clearInterval(timerId);  
+    btnStart.disabled = false;
 };
 
 btnStart.addEventListener("click",()=> timerId = setInterval(changeBackgroudColor, 1000));
