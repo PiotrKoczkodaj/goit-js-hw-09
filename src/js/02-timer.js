@@ -32,5 +32,5 @@ for (let i = 0; i < labels.length; i++) {
     
 }
 
-import flatpickr from "flatpickr";
+
 
