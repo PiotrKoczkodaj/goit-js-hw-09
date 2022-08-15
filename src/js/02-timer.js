@@ -110,7 +110,7 @@ const getDifference = () => {
 
 let timerId = null;
 btn.addEventListener('click', () => {
-  startBtn.disabled = true;
+  btn.disabled = true;
   getDifference();
   timerId = setInterval(() => {
     getDifference();
