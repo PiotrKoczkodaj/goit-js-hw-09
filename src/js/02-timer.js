@@ -36,6 +36,7 @@ import 'flatpickr/dist/flatpickr.min.css';
 
 btn.disabled = true;
 let selectedDate = null;
+
 const options = {
   enableTime: true,
   time_24hr: true,
@@ -47,10 +48,12 @@ const options = {
         alert("Please choose a date in the future")
     } else {
             console.log(selectedDates[0]);
-            btn.disabled = false;
+      btn.disabled = false;
+      return selectedDate = selectedDate[0];
       }
   },
 };
+
 flatpickr(input, options);
 
 function convertMs(ms) {
