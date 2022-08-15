@@ -49,7 +49,7 @@ const options = {
     } else {
             console.log(selectedDates[0]);
       btn.disabled = false;
-      return selectedDate = selectedDate[0];
+      return selectedDate = selectedDates[0];
       }
   },
 };
