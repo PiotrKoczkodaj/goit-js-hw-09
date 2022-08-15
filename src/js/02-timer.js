@@ -35,7 +35,7 @@ import flatpickr from 'flatpickr';
 import 'flatpickr/dist/flatpickr.min.css';
 
 btn.disabled = true;
-
+let selectedDate = null;
 const options = {
   enableTime: true,
   time_24hr: true,
